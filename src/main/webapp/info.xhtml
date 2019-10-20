@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <h:outputLabel value="User created"/>
+
+    <h:body>
+        <h1>Username <h:outputText value="#{registerBean.username}" /></h1>
+        <h1>Password <h:outputText value="#{registerBean.password}" /></h1>
+        <h1>Firstname <h:outputText value="#{registerBean.firstname}" /></h1>
+        <h1>Lastname <h:outputText value="#{registerBean.lastname}" /></h1>
+        <h1>Age <h:outputText value="#{registerBean.age}" /></h1>
+        <h1>Date <h:outputText value="#{registerBean.userCreated}" /></h1>
+    </h:body>
+
+</f:view>
+</html>

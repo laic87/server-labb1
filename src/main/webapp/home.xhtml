@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+
+    <h:head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="styles/home.css"/>
+    </h:head>
+
+    <h:body>
+
+        <h1>Welcome #{loginBean.username}</h1>
+
+        <div style="text-align: left;">
+            <b>User info</b>
+            <br />
+            <span>Username</span>
+            <br />
+            <span>Firstname</span>
+            <br />
+            <span>Lastname</span>
+            <br />
+            <span>Age</span>
+            <br />
+            <span>User created</span>
+            <br />
+        </div>
+
+        <br />
+
+        <h3>inbox</h3>
+        <table>
+            <tr>
+                <th>Username</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td><a href="log.xhtml">Laic</a></td>
+                <td>2019</td>
+            </tr>
+        </table>
+
+    </h:body>
+
+</f:view>
+</html>
